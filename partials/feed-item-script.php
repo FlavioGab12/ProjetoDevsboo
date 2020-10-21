@@ -19,7 +19,7 @@ window.onload = function() {
     
     document.querySelectorAll('.fic-item-field').forEach(item=>{
         item.addEventListener('keyup', async (e)=>{
-            //alert('Meu codigo morre aqui');
+            alert('Meu codigo morre aqui');
             if(e.keyCode == 13) {
                 let id = item.closest('.feed-item').getAttribute('data-id');
                 let txt = item.value;

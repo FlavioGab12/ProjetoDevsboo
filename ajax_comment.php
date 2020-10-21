@@ -34,6 +34,7 @@ if($id && $txt) {
         'name' => $userInfo->name,
         'body' => $txt
     ];
+
 }
 
 header("Content-Type: application/json");

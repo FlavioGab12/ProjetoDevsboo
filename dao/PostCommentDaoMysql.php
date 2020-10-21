@@ -57,7 +57,7 @@ class PostCommentDaoMysql implements PostCommentDAO {
         $sql->bindValue(':body', $pc->body);
         $sql->execute();
 
-        return true;
+        //return true;
     }
 
 }
